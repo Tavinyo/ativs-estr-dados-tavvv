@@ -13,8 +13,8 @@ int * somente_pares(int n, int *v, int *npares)
 
     int *resultado = (int *)malloc(*npares * sizeof(int));
     
-    if (resultado == NULL && *npares > 0) {
-        return NULL;
+    if (resultado == NULL) {
+    return NULL; 
     }
 
     int j = 0;
